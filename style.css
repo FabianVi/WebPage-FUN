@@ -77,7 +77,7 @@ a:active {
     grid-area: main;
     background-color: blue;
 
-    height: auto;
+    height: 10000px;
     width: 100%;
 }
 
@@ -188,6 +188,16 @@ a:active {
     width: calc(200vw - 90px);
     z-index: -1;
     right: 90px;
+}
+
+.pacman {
+    position: absolute;
+    top: 250px;
+    left: -440px;
+    width: 120px;
+    height: 258px;
+    background-color: white;
+    padding-left: 200px;
 }
 
 @keyframes expand {
