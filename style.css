@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    
+    overflow-x: hidden;
     background-color: white;
 }
 
@@ -193,11 +193,11 @@ a:active {
 .pacman {
     position: absolute;
     top: 250px;
-    left: -440px;
+    left: calc(-100vw - 240px*2);
     width: 120px;
     height: 258px;
     background-color: white;
-    padding-left: 200px;
+    padding-left: calc(100vw + 240px);
 }
 
 @keyframes expand {
